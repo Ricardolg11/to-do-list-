@@ -23,9 +23,9 @@ function mostraTarefa(){
 
         novali = novali + `
         <li class="task ${item.concluida && "done"}">
-        <img src="./img/checked.png" alt="chek" onclick="concluirTarefa(${index})" >
+        <img src="./src/checked.png" alt="chek" onclick="concluirTarefa(${index})" >
         <p class="text">${item.tarefa}</p>
-        <img src="./img/trash.png" alt="trash" onclick="deletarItem(${index})" >
+        <img src="./src/trash.png" alt="trash" onclick="deletarItem(${index})" >
         </li>
         `
       
