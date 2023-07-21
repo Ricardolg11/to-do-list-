@@ -12,12 +12,17 @@ body{
     background-image: url('fundo.gif');
 }
 
-.container{
-    background-color: #402df1;
+.container {
     width: 40%;
     border-radius: 10px;
     padding: 10px;
     margin: 100px auto 0;
+    background: linear-gradient(135deg, rgba(255,255,255, 0.1), rgba(255,255,255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0, 0.37);
+    border: 1px solid rgba(255,255,255, 0.18);
+    border-radius: 32px;
     opacity: 90%;
     
 }
